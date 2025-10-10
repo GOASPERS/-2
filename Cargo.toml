@@ -1,0 +1,8 @@
+[package]
+name = "my_crate"
+version = "1.0.0"
+
+[dependencies]
+serde = "1.0"
+rand = "0.8"
+regex = "1.5"

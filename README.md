@@ -175,4 +175,4 @@ D2-файл сохранён: graph_sql2viz.d2
 success: successfully compiled graph_sql2viz.d2 to graph_sql2viz.svg in 45.452126ms
 SVG-файл создан: graph_sql2viz.svg
 
-![](grapg_tokio.svg)
+![](graph_tokio.svg)

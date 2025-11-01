@@ -170,4 +170,5 @@ graph_test.svg — визуализация графа (создаётся ав�
 D2-файл сохранён: graph_sql2viz.d2
 success: successfully compiled graph_sql2viz.d2 to graph_sql2viz.svg in 45.452126ms
 SVG-файл создан: graph_sql2viz.svg
-![](graph_tokio.d2)
+
+![](graph_tokio.svg)

@@ -56,11 +56,12 @@ D:
 При наличии циклических зависимостей программа выводит предупреждение.
 
 ## Примеры запуска программы
-
+1
 Пример 1 — обычный обход графа (BFS):
 
 ```bash
 python3 main.py --package A --path test_repo.txt --mode test --version 1.0.0 --output graph.svg --operation bfs
+```
 Пример 2 — генерация визуализации графа (SVG):
 
 python3 main.py --package A --path test_repo.txt --mode test --version 1.0.0 --output graph.svg --operation visualize
@@ -159,6 +160,9 @@ graph_test.svg — визуализация графа (создаётся ав�
 
 ❌ Для режима 'real' необходимо указать --url — не указан URL crates.io
 
+
+
+
 Пример вывода при использовании режима 'real'
 Загружаем данные с https://crates.io/api/v1/crates/sql2viz/0.1.0/dependencies
 Найдено зависимостей: 5
@@ -171,4 +175,4 @@ D2-файл сохранён: graph_sql2viz.d2
 success: successfully compiled graph_sql2viz.d2 to graph_sql2viz.svg in 45.452126ms
 SVG-файл создан: graph_sql2viz.svg
 
-![](graph_tokio.svg)
+![](grapg_tokio.svg)
